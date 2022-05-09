@@ -1,14 +1,10 @@
-# Eth-Time-Series-Forecast
+# Model Objective
 
-RNN/SARIMA time series forecasting models to predict weekly trends of ETH closing price
-
-# Business Problem
-
-Develop a forecasting model that accurately predicts ETH closing price every 7 days
+Develop a forecasting model that accurately predicts ETH closing price on a day to day basis.
 
 # The Data
 
-Historical time series data downloaded from Tradingview.com (start date: Oct 10, 202019, end date: April 3, 2021)
+Historical time series data downloaded from Tradingview.com
 
 # Repository Contents
 
@@ -20,6 +16,6 @@ Historical time series data downloaded from Tradingview.com (start date: Oct 10,
 
 # Results
 
-1. ETH RNN Models achieved USD RMSE of USD 60 to 96 (current price at USD 3,498)
-2. ETH ARIMA Models achieved USD RMSE of USD 125 to 141 (current price at USD 3,498)
+1. ETH RNN Models achieved USD RMSE of USD 119
+2. ETH ARIMA Models achieved USD RMSE of USD 125 to 141
 3. Models established confirmed upward trend
